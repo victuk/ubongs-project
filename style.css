@@ -1,0 +1,165 @@
+ body{
+     margin: 0px;
+ }
+ 
+ 
+ .mt{
+     font-style: italic;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+
+ /*-----home-page-------*/
+ .backgroundimg{
+    padding: 50px o;
+    background: radial-gradient(#fff,#ffd6d6);
+
+ }
+ 
+ .caption{
+     top: 300px;
+     text-align: left;
+     font-size: 12px;
+ }
+ .buttom{
+    margin-top: 20px;
+    color:rgb(29, 28, 28);
+    background-color:#ff000070;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+ }
+ .caption h2{
+     font-weight: bolder;
+ }
+ .caption span{
+     font-weight: bold;
+     font-size: 35x;
+ }
+ .caption button:hover{
+     text-decoration: none;
+     color:black;
+ }
+/*-------account-page------*/
+.account-page{
+    padding: 50px o;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.form-container{
+   background: #fff;
+   width: 250px;
+   height: 350px; 
+   position: relative;
+   text-align: center;
+   padding: 20px 0;
+   margin: auto;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+   overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 200px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width:200px ;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#Loginform{
+    left: -300px;
+    right: 300px;
+}
+#regform{
+    left: 0;
+}
+ form a{
+     font-size: 10px;
+     display: inherit;
+     color:black;
+     font-weight: bold;
+ }
+ form a:hover{
+     text-decoration: none;
+     color: #ccc;
+ }
+#indicator{
+    width: 95px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    margin-left: 10px;
+    transform: translate(100px);
+    transition: transform 1s;
+
+}
+
+/*-----home page------*/
+.product1 img{
+    height: 270px;
+    margin-left: 9.5%;
+    margin-top: 2%;
+    
+}
+.feature1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.feature2{
+    height: 100px;
+    
+}
+.container-fluid {
+    padding-right: 210px;
+    padding-left: 210px;
+}
+.vertical_line{
+    width: 100px;
+    background-color: #ff523b;
+    height: 2px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+/*-----footer------*/
+ .footer{
+    text-align: center;
+    background-color: black;
+ }
+ .hhead{
+     color: white;
+     font-weight: bold;
+     padding-top: 30px;
+ }
+.boot{
+    margin-top: 100px;
+}
